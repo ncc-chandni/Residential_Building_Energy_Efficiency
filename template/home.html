@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Energy Efficiency Prediction </h1><br>
+        
+        <form action="{{url_for('getprediction')}}" method="POST">
+           <b> Relative Compactness :  <input type="text", name='a', placeholder="enter a number"> <br><br>
+            Wall Area :  <input type="text", name='b', placeholder="enter a number"> <br><br>
+            Roof Area :  <input type="text", name='c', placeholder="enter a number"> <br><br>
+            Overall Height : <input type="text", name='d', placeholder="enter a number"> <br><br><br>
+            Glazing Area : <input type="text", name='e', placeholder="enter a number"> <br><br><br>
+            Glazing Area Distribution : <input type="text", name='f', placeholder="enter a number"> <br><br><br></b>
+            <input type="submit" , value='Predict the Cooling Load!' >
+        </form>
+        
+    </center>
+
+    </body>
+</html>
