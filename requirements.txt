@@ -1,0 +1,11 @@
+pandas
+numpy
+flask
+scikit-learn
+seaborn
+matplotlib
+dill
+pickle4
+
+
+#-e .
